@@ -1,4 +1,4 @@
-[20:18, 22/10/2023] Maleesha Malli Pera: const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 const dogOwnerSchema = new mongoose.Schema({
   firstName: {
@@ -52,10 +52,7 @@ const dogOwnerSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
 …
-[20:32, 22/10/2023] Praba: me vehicle
-[20:32, 22/10/2023] Praba: eke ewai
-[20:32, 22/10/2023] Praba: dog handler ge ewai ewnnko
-[20:45, 22/10/2023] Maleesha Malli Pera: const mongoose = require('mongoose');
+ const mongoose = require('mongoose');
 
 const dogOwnerSchema = new mongoose.Schema({
   firstName: {
