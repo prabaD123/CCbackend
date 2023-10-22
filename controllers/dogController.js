@@ -1,4 +1,4 @@
-import userService from './dogService';
+const userService = require('./dogService');
 
 const createDogControllerFn = async (req,res) =>
 {
@@ -20,4 +20,4 @@ const createDogControllerFn = async (req,res) =>
 }
 
 
-export default { createDogControllerFn };
+module.exports = { createDogControllerFn };

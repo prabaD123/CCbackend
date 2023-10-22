@@ -23,8 +23,7 @@ app.listen(port, () => {
 
 
 
-app.get('/', (req, res) => res.send('Hello wwww!'))
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
-//app.use('/',userRoute);
+
+app.use('/',userRoute);
 //app.use(dogRoute);
