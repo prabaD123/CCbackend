@@ -25,5 +25,12 @@ app.listen(port, () => {
 
 
 
-app.use('/',userRoute);
+//app.use('/',userRoute);
 //app.use(dogRoute);
+
+app.use('/api', require('./routes'));
+
+app.get('/', (req, res) => {
+  res.send('Welcome to the Canine Connect!');
+});
+
